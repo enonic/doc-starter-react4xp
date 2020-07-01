@@ -119,15 +119,8 @@ To verify that your app started successfully, you should find an entry similar t
 `2019-04-09 13:40:40,765 INFO ... Application [<name.of.your.app>] installed successfully`
 ====
 
-== {zwsp} +
+Now you're ready to get started with the first lesson chapter: <<1-hello-react#, Hello React>>.
 
-Now you're ready to get started with the first lesson chapters.
-
-[.right]
--> 1. <<1-hello-react#, Hello React: server and clientside>>
-
-{zwsp} +
-{zwsp} +
 {zwsp} +
 {zwsp} +
 

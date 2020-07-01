@@ -122,20 +122,7 @@ If you want a deeper dive into details before moving on, here's more about <<ent
 
 {zwsp} +
 
-Okay, next example lessons!
-
-
-== {zwsp} +
-[cols="e,>e",width="100%",grid="none",frame="none",stripes=none]
-|====
-|<- Back
-
-3. <<3-pages-parts-and-regions#, XP Pages, Parts, Regions and Content>>|
-
-Next ->
-
-5. <<5-custom-flow-syntax#, Custom flow syntax>>
-|====
+Okay, next example lesson!
 
 {zwsp} +
 {zwsp} +

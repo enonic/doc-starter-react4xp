@@ -128,6 +128,7 @@ export default (props) => (
 
 {zwsp} +
 
+[[page_controller]]
 ==== Page controller
 
 The `props` of course come from the *Page controller*. Still similar to the previous examples, we're mainly just adding props that are needed by `<Regions>` in the react component.
@@ -195,7 +196,7 @@ This lays the foundation for this example and also the later ones. When this is 
 2. In the grid (Content Studio browse mode), under your Site, create a new Template content under Templates:
 
 [.thumb]
-image:template_new.png[link="media/template_new.png",title="Creating a new Template content in Content Studio.", width=500px]
+image:template_new.png[title="Creating a new Template content in Content Studio.", width=500px]
 
 {zwsp} +
 
@@ -346,28 +347,14 @@ We won't go into the details about the HTML output anymore - it's structurally a
 ====
 Each time the client calls `React.CLIENT.render` or `.hydrate`, it will spawn a *separate root react app*. For this to happen a controller usually calls `React4xp.render` (*). So in this example, there will be one independent react app in the client for each of the _color_ Parts you added to the Region.
 
-(*) Remember from the code explanation of <<#_page_controller, our Page controller>> that `React4xp.render` needs the `request` argument to generate page contributions. Omitting `request` forces a pure serverside rendering without hydration - so our page controller is not starting a separate react app in the client.
+(*) Remember from the code explanation of <<#page_controller, our Page controller>> that `React4xp.render` needs the `request` argument to generate page contributions. Omitting `request` forces a pure serverside rendering without hydration - so our page controller is not starting a separate react app in the client.
 
 (Just for the record, there is an alternative renderer, `.renderPageContributions`. It also starts a new react app, but never needs `request`. More on that in a <<5-custom-flow-syntax#, later lesson>>)
 ====
 
-== {zwsp} +
-
 Now we've covered the basics of how to use react4xp. It'll be enough for most simple setups and use cases.
 
 Moving on from here, we'll take a look at more advanced ways to use react4xp, giving you more control.
-
-{zwsp} +
-[cols="e,>e",width="100%",grid="none",frame="none",stripes=none]
-|====
-|<- Back
-
-2. <<2-editorial-data-and-props#, Editorial data and props>>|
-
-Next: advanced ->
-
-4. <<4-source-file-structure#, Free source file structure>>
-|====
 
 {zwsp} +
 {zwsp} +
