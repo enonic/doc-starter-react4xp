@@ -55,11 +55,4 @@ Feedback, suggestions, uncovered use cases, problems, or stories of ensuing hila
   - Finishing the library and a similar starter for XP 6. 
 
 
-## This documentation
-To build the documentation:
-
-  ./gradlew asciidoctor
-
-You will find the output here: build/docs/html/index.html
-
 Copyright - Enonic AS
