@@ -1,3 +1,5 @@
+Moved here https://github.com/enonic/doc-react4xp
+
 # starter-react4xp
 
 Beta: 0.2.2
